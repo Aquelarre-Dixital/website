@@ -1,0 +1,25 @@
+---
+const { avatar, nombre, stack, hobbies, ciudad, github, linkedin } =
+  Astro.props;
+---
+
+<div class="border rounded-xl p-4">
+  <img
+    src={avatar}
+    alt={`Foto de ${nombre}`}
+    class="w-50 object-cover rounded-full mb-4"
+  />
+  <h2 class="text-xl font-semibold">{nombre}</h2>
+  <p class="text-sm text-gray-600">{ciudad}</p>
+  <div class="mt-2">
+    <p><strong>Stack:</strong> {stack.join(", ")}</p>
+    <p><strong>Hobbies:</strong> {hobbies.join(", ")}</p>
+  </div>
+  <div class="mt-2 flex gap-4">
+    <a href={github} target="_blank" class="text-purple-600 underline">GitHub</a
+    >
+    <a href={linkedin} target="_blank" class="text-purple-600 underline"
+      >LinkedIn</a
+    >
+  </div>
+</div>
