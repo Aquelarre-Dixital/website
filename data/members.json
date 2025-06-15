@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Cinnamon",
+    "avatar": "https://i.pinimg.com/736x/07/4c/d2/074cd2dadaf16e0d55d01b98e35729ae.jpg",
+    "stack": ["HTML", "CSS", "JavaScript", "Astro"],
+    "hobbies": ["Dormir sobre el teclado", "Cazar punteros láser"],
+    "ciudad": "A Coruña",
+    "github": "https://github.com/michidev",
+    "linkedin": "https://linkedin.com/in/michidev"
+  },
+  {
+    "nombre": "Latte",
+    "avatar": "https://i.pinimg.com/736x/33/e1/61/33e1612ce988bf0d6c98e3ab270ba283.jpg",
+    "stack": ["Figma", "Adobe XD", "Design Thinking", "Usabilidad"],
+    "hobbies": ["Maullar en workshops", "Rediseñar cajas de cartón"],
+    "ciudad": "Vigo",
+    "github": "https://github.com/gatitaux",
+    "linkedin": "https://linkedin.com/in/gatitaux"
+  },
+  {
+    "nombre": "Matcha",
+    "avatar": "https://i.pinimg.com/736x/2b/8a/a1/2b8aa1022d1d5f335e7b2573e47df90e.jpg",
+    "stack": ["Linux", "Kali", "Pentesting", "Wireshark"],
+    "hobbies": ["Oler cables", "Hackear el WiFi del vecino"],
+    "ciudad": "Ourense",
+    "github": "https://github.com/cybermeow",
+    "linkedin": "https://linkedin.com/in/cybermeow"
+  }
+]
