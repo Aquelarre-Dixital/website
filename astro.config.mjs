@@ -6,6 +6,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "aquelarre-dixital.github.io",
-  base: "/website",
+  site: "https://aquelarre-dixital.github.io",
 });
