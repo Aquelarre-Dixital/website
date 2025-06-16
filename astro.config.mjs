@@ -7,4 +7,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: "aquelarre-dixital.github.io",
+  base: "/website",
 });
